@@ -5,9 +5,11 @@ body{
 
 .nav{
 	position: relative;
+	float: right;
+	margin-top: 0px;
 }
 .nav li{
-	float: right;
+	float: left;
 	border: 2px solid blue;
 	padding: 5px;
 	list-style: none; 
