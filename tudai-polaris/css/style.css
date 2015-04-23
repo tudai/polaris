@@ -1,1 +1,18 @@
-.lala{asdasd}
+body{
+	width: 970px;
+	margin: auto;
+}
+
+.nav{
+	position: relative;
+}
+.nav li{
+	float: right;
+	border: 2px solid blue;
+	padding: 5px;
+	list-style: none; 
+	background-color: #1b4da0;
+	margin: auto;
+	position: relative;
+	
+}
