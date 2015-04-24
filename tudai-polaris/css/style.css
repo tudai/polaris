@@ -51,11 +51,6 @@ a{
 	border: 1px solid #ffffff;
 }
 
-
-input[name="slider-select-element"]{
-	display:none;
-}
-
 #slider-arrows{
 	margin: -10% auto 0 auto;
 	display:none;
@@ -63,7 +58,7 @@ input[name="slider-select-element"]{
 
 #slider-box{
 	height: 100%;
-	width: 300px;
+	width: 300%;
 }
 
 #slider-container{
@@ -80,9 +75,10 @@ input[name="slider-select-element"]{
 	min-height: 400px;
 	max-height: 100%;
 	width: 100%;
+	margin-bottom: 30px;
 }
 
-element-blue {
+.element-blue {
     background: blue;
 }
 
@@ -114,32 +110,6 @@ element-blue {
     float: left;
 }
 
-#element1:checked ~ #slider-arrows label:nth-child(2):before,
-#element2:checked ~ #slider-arrows label:nth-child(3):before,
-#element3:checked ~ #slider-arrows label:nth-child(1):before {
-    color: black  ;
-    content: "\f054";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: antialiased;
-}
-
-#element1:checked ~ #slider-arrows label:nth-child(3):before,
-#element2:checked ~ #slider-arrows label:nth-child(1):before,
-#element3:checked ~ #slider-arrows label:nth-child(2):before {
-    color: black  ;
-    content: "\f053";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: antialiased;
-}
-
 #element1:checked ~ #slider-container #slider-box {
     margin-left: 0;
 }
@@ -169,3 +139,13 @@ element-blue {
     transition: all 0.75s ease;
 }
 
+#polaris-slider {
+	text-align: center;
+	position: relative;
+}
+
+.bullets{
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+}

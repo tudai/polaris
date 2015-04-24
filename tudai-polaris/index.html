@@ -5,6 +5,7 @@
 	<title>Polaris Tandil</title>
 	<link rel="stylesheet" href="css/style.css" />
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 	<header>
@@ -22,10 +23,11 @@
 	<div class="clear"></div>
 	<div id="polaris-slider">
 		<section>
-			<input type="radio" name="slider-select-element" id="element1" checked="checked" />
-        	<input type="radio" name="slider-select-element" id="element2" />
-        	<input type="radio" name="slider-select-element" id="element3" />
-        	
+			<div class="bullets">
+				<input type="radio" name="slider-select-element" id="element1" checked="checked" />
+	        	<input type="radio" name="slider-select-element" id="element2" />
+	        	<input type="radio" name="slider-select-element" id="element3" />
+        	</div>
         	<div id="slider-container">
         		<div id="slider-box">
                 	<div class="slider-element">
@@ -41,12 +43,6 @@
                         </article>                            
                    </div>
                </div>
-            </div>
-                
-            <div id="slider-arrows">
-            	<label for="element1"></label>
-            	<label for="element2"></label>
-            	<label for="element3"></label>
             </div>
         </section>
 	</div>
