@@ -1,7 +1,7 @@
 body{
 	width: 970px;
 	margin: auto;
-	background-image :url("images/fondo.jpg");
+	background: #ffffff url(../images/fondo.jpg) no-repeat fixed center;
 }
 a{
 	text-decoration: none;
