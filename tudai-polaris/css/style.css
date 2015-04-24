@@ -4,7 +4,8 @@ body{
 }
 a{
 	text-decoration: none;
-	color: #cccccc;;
+	color: #cccccc;
+	font-family: 'Roboto', sans-serif;
 }
 .nav{
 	position: relative;
