@@ -23,3 +23,13 @@ a{
 	position: relative;
 	
 }
+.clear{
+	clear: both;
+}
+.titulo{
+	float: left;
+
+}
+.aside p{
+	display: block;
+}
