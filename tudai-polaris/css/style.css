@@ -2,11 +2,12 @@ body{
 	width: 970px;
 	margin: auto;
 	background: #ffffff url(../images/fondo.jpg) no-repeat fixed center;
+	font-family: 'Roboto', sans-serif;
 }
 a{
 	text-decoration: none;
 	color: #cccccc;
-	font-family: 'Roboto', sans-serif;
+
 }
 .nav{
 	position: relative;
@@ -26,12 +27,28 @@ a{
 .clear{
 	clear: both;
 }
+.container{
+	width: 100%;
+	background-color: #cccccc;
+	
+ 
+}
 .titulo{
 	float: left;
 
 }
-.aside p{
-	display: block;
+.licontact li{
+	list-style: none;
+}
+.aside {
+	float: left;
+	width: 25%;
+	border: 1px solid #ffffff;
+}
+.floatRight{
+	float: left;
+	width: 70%;
+	border: 1px solid #ffffff;
 }
 
 
