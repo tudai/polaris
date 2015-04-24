@@ -4,7 +4,7 @@ body{
 }
 a{
 	text-decoration: none;
-	color: black;
+	color: #cccccc;;
 }
 .nav{
 	position: relative;
@@ -13,8 +13,8 @@ a{
 }
 .nav li{
 	float: left;
-	border: 2px solid blue;
-	padding: 5px;
+	border: 2px solid whitesmoke;
+	padding: 11px;
 	list-style: none; 
 	background-color: #1b4da0;
 	margin: auto;
