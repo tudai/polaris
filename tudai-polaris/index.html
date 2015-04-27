@@ -22,29 +22,64 @@
 	</nav>
 	<div class="clear"></div>
 	<div id="polaris-slider">
-		<section>
-			<div class="bullets">
-				<input type="radio" name="slider-select-element" id="element1" checked="checked" />
-	        	<input type="radio" name="slider-select-element" id="element2" />
-	        	<input type="radio" name="slider-select-element" id="element3" />
-        	</div>
-        	<div id="slider-container">
-        		<div id="slider-box">
-                	<div class="slider-element">
-                    	<article class="element-red">
-                        </article>
-                   </div>
-                   <div class="slider-element">
-                   		<article class="element-green">
-                   		</article>
-                   </div>
-                   <div class="slider-element">
-                   		<article class="element-blue">
-                        </article>                            
-                   </div>
-               </div>
-            </div>
-        </section>
+		<div id="slider">
+			<input checked type="radio" name="slider" id="slide1" />
+			<input type="radio" name="slider" id="slide2" />
+			<input type="radio" name="slider" id="slide3" />
+			<input type="radio" name="slider" id="slide4" />
+			<input type="radio" name="slider" id="slide5" />
+			
+			<div id="slides">
+				<div id="overflow">
+					<div class="inner">
+						<article>
+							<div class="info">
+								<h5>Título</h5>
+								<a href="#">Autor</a>
+							</div>
+							<img src="images/slider/foto1.jpg" />
+						</article>
+						<article>
+							<div class="info">
+								<h5>Título</h5>
+								<a href="#">Autor</a>
+							</div>
+							<img src="images/slider/foto2.jpg" />
+						</article>
+						<article>
+							<div class="info">
+								<h5>Título</h5>
+								<a href="#">Autor</a>
+							</div>
+							<img src="images/slider/foto3.jpg" />
+						</article>
+						<article>
+							<div class="info">
+								<h5>Título</h5>
+								<a href="#">Autor</a>
+							</div>
+							<img src="images/slider/foto4.jpg" />
+						</article>
+			
+					</div>
+				</div>
+			</div>
+			
+			<div id="controls">
+				<label for="slide1"></label>
+				<label for="slide2"></label>
+				<label for="slide3"></label>
+				<label for="slide4"></label>
+				<label for="slide5"></label>
+			</div>
+			<div id="active">
+				<label for="slide1"></label>
+				<label for="slide2"></label>
+				<label for="slide3"></label>
+				<label for="slide4"></label>
+				<label for="slide5"></label>
+			</div>
+		</div>
 	</div>
 	<footer>
 		<p>Aca va el footer</p>
