@@ -49,5 +49,10 @@ header{
 	text-align: center;
 }
 
-.footer a{
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
 }
