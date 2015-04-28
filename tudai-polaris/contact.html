@@ -23,6 +23,7 @@
 	
 	</div>
 	<div class="container">
+		
 		<div class="aside">
 			<h3> Dirección </h3>
 			<ul class="licontact">
@@ -40,18 +41,23 @@
 		</div>
 	
 		<div class="floatRight">
-			<form>
-				Nombre y Apellido:<br>
-				<input type="text" name="firstname"/>
-				<br>
-				Teléfono:<br>
-				<input type="text" name="lastname"/>
-				<br>
-				Correo Electrónico:<br>
-				<input type="text" name="email"/>
-				<br>
-				Mensaje:<br>
-				<input type="text" name="mensaje" />
+			<form id="formcontact">
+				<div class="contactPart">
+					Nombre y Apellido:
+					<input class="inputInfo" type="text" name="firstname"/>
+				</div>
+				<div class="contactPart">
+					Teléfono:
+					<input class="inputInfo" type="text" name="lastname"/>
+				</div>
+				<div class="contactPart">
+					Correo Electrónico:
+					<input class="inputInfo" type="text" name="email"/>
+				</div>
+				<div class="contactPart">
+					Mensaje:
+					<textarea class="inputInfo"></textarea>			
+				</div>
 				<input type="submit" value="Enviar">
 			</form>
 		

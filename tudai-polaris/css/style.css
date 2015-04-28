@@ -41,17 +41,36 @@ a{
 	list-style: none;
 }
 
+
 .aside {
 	float: left;
-	width: 25%;
+	width: 30%;
 	border: 1px solid #ffffff;
+	box-sizing: border-box;
 }
 .floatRight{
 	float: left;
 	width: 70%;
 	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	background: #ffffff url(../images/map.jpg) no-repeat fixed center
 }
+form{
+	text-align: center;
+}
+.contactPart{
+	display: block;
+	padding: 10px;
+	text-align: right;
+	width: 70%;
 
+}
+.inputInfo{
+	width: 60%;
+}
+#formcontact textarea{
+	  height: 100px;
+}
 
 /****************** SLIDER STYLE ***************************************/
 #slider {
