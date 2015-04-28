@@ -1,0 +1,19 @@
+
+.model{
+	display:none;
+	width: 100%;
+	border: 1px solid red;
+}
+
+.catalog-container .left{
+	width: 29%;
+}
+
+.catalog-container .right {
+	width: 70%;
+}
+
+
+.model-tab{
+	display: block;
+}
