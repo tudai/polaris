@@ -28,11 +28,25 @@ a{
 	clear: both;
 }
 .container{
-	width: 100%;
+	width: 90%;
 	background-color: #cccccc;
-	
- 
+	margin: auto;
 }
+
+.site-container{
+	background: whitesmoke;
+}
+
+header{
+	overflow: hidden;
+}
+
+.footer{
+	background: #cccccc;
+	margin-top: 10px;
+	padding: 10px;
+}
+
 .titulo{
 	float: left;
 
@@ -71,4 +85,6 @@ form{
 #formcontact textarea{
 	  height: 100px;
 }
+
+
 
