@@ -1,6 +1,6 @@
 
 .site-container{
-	background: white;
+	background: whitesmoke;
 }
 
 header{
@@ -9,6 +9,12 @@ header{
 
 body{
 	margin-bottom: -16px;
+}
+
+.footer{
+	background: #cccccc;
+	margin-top: 10px;
+	padding: 10px;
 }
 
 /****************** SLIDER STYLE ***************************************/
