@@ -1,9 +1,23 @@
 
-#index-site{
-	background: none;
+.site-container{
+	background: white;
+}
+
+header{
+	overflow: hidden;
+}
+
+body{
+	margin-bottom: -16px;
 }
 
 /****************** SLIDER STYLE ***************************************/
+
+#polaris-slider{
+	width: 90%;
+	margin: auto;
+}
+
 #slider {
 	text-align: center;
 	margin: 0 auto;
