@@ -1,4 +1,12 @@
-.morevideos {
+
+.video-media{
+	padding: 15px 15px 15px 15px;
+	margin: auto;
+}
+.morevideos{
 	text-align: center;
-	background-color: red;
+	
+}
+.morevideos a{
+	color: red;
 }
