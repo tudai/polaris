@@ -11,24 +11,22 @@
 }
 
 
-.aside {
+.left {
 	float: left;
 	width: 30%;
 	border: 1px solid #ffffff;
 	box-sizing: border-box;
 }
 
-.aside h3{
+.left h3{
 	margin-left: 5px;
 }
-.floatRight{
+.right{
 	float: left;
 	width: 70%;
 	border: 1px solid #ffffff;
 	box-sizing: border-box;
 	background: #ffffff url(../images/map.jpg) no-repeat fixed center;
-	overflow: hidden;
-
 }
 form{
 	text-align: center;
