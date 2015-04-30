@@ -273,32 +273,32 @@ footer div{
 	margin-top: 5px;
 }
 
-.vehicle-description{
+.vehicle > div{
 	width: 68%;
 	margin-right: 1%;
 	padding: 4px;
 }
 
-.vehicle-title{
+.vehicle > div div:first-child{
 	font-weight: bold;
 	border-bottom: 1px solid #cccccc;	
 }
 
-.vehicle-content{
+.vehicle > div p{
 	overflow: hidden;
   	height: 78px;
 }
 
-.vehicle-content::after{
+.vehicle > div p::after{
 	content: "...";
 }
 
-.vehicle-footer{
+.vehicle > div div:last-child{
 	border-top: 1px solid #cccccc;
 	text-align: right;
 }
 
-.vehicle-footer a{
+.vehicle > div div:last-child a{
 	color: #1b4da0;
 }
 
