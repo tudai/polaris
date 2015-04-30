@@ -5,6 +5,7 @@
 	<title>Polaris Tandil</title>
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/catalog.css" />
+	<!-- link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
 </head>
 <body>
 	<div class="site-container">
@@ -21,43 +22,102 @@
 				</ul>
 		</nav>
 		<div class="container clear catalog-container">
-			<div class="left">
-				<div id="catalog-menu-title"><h3>Modelos</h3></div>
-				<nav>
-					<ul>
+					<ul id="tabs">
 						<li>
-							<input type="radio" id="rzr" class="model-tab" checked/>
+							<input type="radio" id="rzr" class="model-tab" name="tabs" checked/>
 							<label for="rzr">RZR</label>
+							<div id="rzr-content" class="model">
+								<div class="vehicle">
+									<img src="images/modelos/rzr/modelo1.jpg" alt="" class="left img-model" />
+									<div class="right vehicle-description">
+										<div class="vehicle-title">Destructor XR1</div>
+										<p class="vehicle-content">El Destructor XR1 es una de las mas avanzadas piezas de tecnología. Su chasis de adamantio reforzado con espirifitis de plomo y su gran cañon de fideos tirabuzon, lo hacen ideal para repartir pizzas en los barrios mas</p>
+										<div class="vehicle-footer"><a href="#">mas info...</a></div>
+									</div>
+								</div>
+								<div class="vehicle">
+									<img src="images/modelos/rzr/modelo2.jpg" alt="" class="left img-model" />
+									<div class="right vehicle-description">
+										<div class="vehicle-title">Todo Terreno "Amado Bodou"</div>
+										<p class="vehicle-content">Con el "Amado Bodou" va a ser imposible que vuelques. Posee dos tornepente resorticos que impiden a la mamba roja y negra su total reproducción en épocas humedas y secas. Derechos de copyright asegurados. Por Ley 11.723</p>
+										<div class="vehicle-footer"><a href="#">mas info...</a></div>
+									</div>
+								</div>
+							</div>
 						</li>
 						<li>
-							<input type="radio" id="ranger" class="model-tab"/>
+							<input type="radio" id="ranger" class="model-tab" name="tabs"/>
 							<label for="ranger">RANGER</label>
+							<div id="ranger-content" class="model">
+								<div class="vehicle">
+									<img src="images/modelos/ranger/modelo1.jpg" alt="" class="left img-model" />
+									<div class="right vehicle-description">
+										<div class="vehicle-title">MC Guiver 11X</div>
+										<p class="vehicle-content">El MC Guiver 11X es, probablemente, uno de los mas utiles vehiculos del mundo. Deslizador, aeronave, todoterreno, submarino, armario, sandmaster, helicopeto apache, bordeadora nada es imposible para el MC Guiver 11X </p>
+										<div class="vehicle-footer"><a href="#">mas info...</a></div>
+									</div>
+								</div>
+								<div class="vehicle">
+									<img src="images/modelos/ranger/modelo2.jpg" alt="" class="left img-model" />
+									<div class="right vehicle-description">
+										<div class="vehicle-title">SandMaster 9000</div>
+										<p class="vehicle-content">Su sistema de resortecitos de última generación permite al manejador mas pete del mundo alcanzar el nivel de profesionalismo de Schumacher. Gracias a sus ventanillas totalmente opacas y sus lentes 3d con "surround sound amplif</p>
+										<div class="vehicle-footer"><a href="#">mas info...</a></div>
+									</div>
+								</div>
+							</div>
 						</li>
 						<li>
-							<input type="radio" id="sportsman" class="model-tab"/>
+							<input type="radio" id="sportsman" class="model-tab" name="tabs"/>
 							<label for="sportsman">SPORTSMAN</label>
+							<div id="sportsman-content" class="model">lele</div>
 						</li>
 						<li>
-							<input type="radio" id="scrambler" class="model-tab"/>
+							<input type="radio" id="scrambler" class="model-tab" name="tabs"/>
 							<label for="scrambler">SCRAMBLER</label>
+							<div id="scrambler-content" class="model">lili</div>
+						</li>
+						<li>
+							<input type="radio" id="prices" class="model-tab" name="tabs"/>
+							<label for="prices">Tabla de Precios</label>
+							<div id="prices-content" class="model">
+							<table>
+								<tr>
+									<th>Modelo</th>
+									<th>Nombre</th>
+									<th>Cilindrada</th>
+									<th>Precio</th>
+								</tr>
+								<tr>
+									<td>rzr</td>
+									<td>Destructor XR1</td>
+									<td>917 c3</td>
+									<td>211309 chelines</td>
+								</tr>
+								<tr>
+									<td>rzr</td>
+									<td>Todo Terreno "Amado Bodou"</td>
+									<td>1214.4 c3</td>
+									<td>1400001 rupias</td>
+								</tr>
+								<tr>
+									<td>ranger</td>
+									<td>MC Guiver 11X</td>
+									<td>4923 c3 + 2 tomahawk</td>
+									<td>300000 euros</td>
+								</tr>
+								<tr>
+									<td>ranger</td>
+									<td>SandMaster 9000</td>
+									<td>17056 c3</td>
+									<td>902003 yuanes</td>
+								</tr>
+							
+							</table>
+							
+							</div>
 						</li>
 					</ul>
-				</nav>			
-			</div>
-			<div class="right">
-				<section>
-					<div id="rzr" class="model"> lala</div>
-				</section>
-				<section>
-					<div id="ranger" class="model">lolo</div>
-				</section>
-				<section>
-					<div id="sportsman" class="model">lele</div>
-				</section>
-				<section>
-					<div id="scrambler" class="model">lili</div>
-				</section>
-			</div>
 		</div>
 		<footer>
 			<div class="footer clear">

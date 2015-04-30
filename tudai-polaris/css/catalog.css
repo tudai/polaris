@@ -1,19 +1,116 @@
+#tabs,
+#tabs li label,
+.model-tab:checked ~ .model,
+.model-tab:checked ~ label{
+	box-sizing: border-box;		
+}
+
+
+#tabs{
+	width: 100%;
+	float: none;
+	display: block;
+	position: relative;
+	min-height: 343px;
+}
+
 
 .model{
 	display:none;
+	line-height: 25px;
+	position: absolute;
 	width: 100%;
-	border: 1px solid red;
+	margin-top: 10px;
 }
 
-.catalog-container .left{
-	width: 29%;
-}
-
-.catalog-container .right {
-	width: 70%;
-}
-
-
-.model-tab{
+#tabs li{
+	float: left;
 	display: block;
+	list-style: none;
+}
+
+#tabs li input{
+	display: none;
+}
+#tabs li label{
+	padding: 10px;
+	cursor: pointer;
+	border: 1px solid #cccccc;
+	margin: 0 2px;
+}
+
+
+.model-tab:checked ~ label{
+	background: #1a1a1a;
+	color: whitesmoke;
+}
+
+.model-tab:checked ~ .model{
+	display: block;
+	height: 96%;
+	left: 0;
+	overflow: auto;
+}
+
+.catalog-container .img-model{
+	width: 30%;
+	margin: auto
+}
+
+.vehicle{
+	margin: 5px 0;
+	display: block;
+	position: relative;
+	min-height: 180px;
+	margin-top: 30px;
+	border: 1px solid #cccccc;
+}
+
+.vehicle:first-child{
+	margin-top: 5px;
+}
+.vehicle-description{
+	width: 68%;
+	margin-right: 1%;
+	padding: 4px;
+	box-sizing: border-box;
+}
+
+.vehicle-title{
+	font-weight: bold;
+	border-bottom: 1px solid #cccccc;	
+}
+
+.vehicle-content{
+	overflow: hidden;
+  	height: 78px;
+}
+
+.vehicle-content::after{
+	content: "...";
+}
+
+.vehicle-footer{
+	border-top: 1px solid #cccccc;
+	text-align: right;
+}
+
+.vehicle-footer a{
+	color: #1b4da0;
+}
+
+
+.model table{
+	margin: 10px auto auto;
+	border-collapse: collapse;
+}
+
+.model table, 
+.model th, 
+.model td{
+	border: 1px solid #cccccc;
+}
+
+.model td{
+	padding: 10px;
 }
