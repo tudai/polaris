@@ -230,7 +230,7 @@ header{
 	float: none;
 	display: block;
 	position: relative;
-	min-height: 400px;
+	min-height: 415px;
 }
 
 
@@ -239,7 +239,7 @@ header{
 	line-height: 25px;
 	position: absolute;
 	width: 100%;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 #tabs li{
@@ -266,7 +266,7 @@ header{
 
 .model-tab:checked ~ .model{
 	display: block;
-	height: 96%;
+	height: 95%;
 	left: 0;
 	overflow: auto;
 }
