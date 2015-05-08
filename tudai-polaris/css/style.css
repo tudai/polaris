@@ -212,14 +212,14 @@ footer div{
 /********************* ESTILO CATÁLOGO ******************************/
 
 
-#tabs{
+.catalog-container ul{
 	display: block;
 	position: relative; /*sus hijos tienen posicionamiento absoluto*/
 	min-height: 415px;
 }
 
 
-.model{
+.catalog-container li section{
 	display:none;
 	line-height: 25px;
 	position: absolute;
@@ -227,16 +227,16 @@ footer div{
 	margin-top: 15px;
 }
 
-#tabs li{
+.catalog-container ul li{
 	float: left;
 	list-style: none;
 }
 
-#tabs li input{
+.catalog-container ul li input{
 	display: none;
 }
 
-#tabs li label{
+.catalog-container ul li label{
 	padding: 10px;
 	cursor: pointer;
 	border: 1px solid #cccccc;
@@ -244,78 +244,78 @@ footer div{
 }
 
 
-.model-tab:checked ~ label{
+.catalog-container li input:checked ~ label{
 	background: #1a1a1a;
 	color: whitesmoke;
 }
 
 /* la magia ;) */
-.model-tab:checked ~ .model{
+.catalog-container li input:checked ~ section{
 	display: block;
 	height: 95%;
 	left: 0;
 	overflow: auto;
 }
 
-.catalog-container .img-model{
+.catalog-container  section img{
 	width: 30%;
 	margin: auto
 }
 
-.vehicle{
+.catalog-container section > div{
 	margin: 5px 0;
 	min-height: 180px;
 	margin-top: 30px;
 	border: 1px solid #cccccc;
 }
 
-.vehicle:first-child{
+.catalog-container section > div:first-child{
 	margin-top: 5px;
 }
 
-.vehicle > div{
+.catalog-container section > div > div{
 	width: 68%;
 	margin-right: 1%;
 	padding: 4px;
 }
 
-.vehicle > div div:first-child{
+.catalog-container section > div > div div:first-child{
 	font-weight: bold;
 	border-bottom: 1px solid #cccccc;	
 }
 
-.vehicle > div p{
+.catalog-container section > div > div p{
 	overflow: hidden;
   	height: 78px;
 }
 
-.vehicle > div p::after{
+.catalog-container section > div > div p::after{
 	content: "...";
 }
 
-.vehicle > div div:last-child{
+.catalog-container section > div > div div:last-child{
 	border-top: 1px solid #cccccc;
 	text-align: right;
 }
 
-.vehicle > div div:last-child a{
+.catalog-container section > div > div div:last-child a{
 	color: #1b4da0;
 }
 
 
-.model table{
+.catalog-container section table{
 	margin: 10px auto auto;
 	border-collapse: collapse;
 }
 
 
-.model table, 
-.model th, 
-.model td{
+.catalog-container section table, 
+.catalog-container section th, 
+.catalog-container section td{
 	border: 1px solid #cccccc;
 }
 
-.model td{
+.catalog-container section td{
 	padding: 10px;
 }
 
